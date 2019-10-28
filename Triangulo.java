@@ -2,11 +2,11 @@ package isosceles;
 
 import java.util.Scanner;
 
-public class Main {
+public class Triangulos {
 	public static void main(String[] args) {
 double area;
 Scanner entrada = new Scanner(System.in);
-System.out.println("¿Cuantos triangulos desea ingresar?");
+System.out.println("Â¿Cuantos triangulos desea ingresar?");
 float t = entrada.nextInt();
 for (int i = 0; i < t; i++) {
 	int cont=i+1;
